@@ -6,7 +6,7 @@ For detail of the this docker repo, please refer to original [jwilder/nginx-prox
 ## Build the docker image
 ```zsh
 # At the root of the repo
-docker build nginx-proxy-prerender .
+docker build -t <your-docker-account>/nginx-proxy-prerender .
 ```
 
 ## Push the docker image to docker hub
